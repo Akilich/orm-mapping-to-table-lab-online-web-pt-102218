@@ -21,5 +21,5 @@ attr_reader :id
   
   def self.drop_table
     sql =  <<-SQL
-    DELETE students FROM 
+    DELETE FROM students
 end
